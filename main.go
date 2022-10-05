@@ -12,7 +12,7 @@ func main() {
 
 	res := helper.CountWords(src)
 
-	fmt.Println(rune(res))
+	fmt.Println(res)
 }
 
 // readInput reads pattern and source string

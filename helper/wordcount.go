@@ -1,14 +1,15 @@
 package helper
 
 import (
+	"strconv"
 	"strings"
 )
 
-func CountWords(str string) int {
+func CountWords(str string) string {
 	if str == "" {
-		return 0
+		return "0"
 	}
 	s := strings.Split(str, " ")
 
-	return len(s)
+	return strconv.Itoa(len(s))
 }
