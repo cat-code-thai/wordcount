@@ -3,7 +3,7 @@
 This is a template for the `wordcount` CLI tool. It should work as follows:
 
 ```bash
-$ ./wordcount 'go is awesome'
+$ ./helper 'go is awesome'
 3
 ```
 
